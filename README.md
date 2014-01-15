@@ -1,37 +1,25 @@
-#HANGMAN GAME
+HANGMAN GAME
+=============
+
+This hangman game is an university project written in OCaml using the Light Weight Thread library.
+
+Features :
+- Hangman game with 6 tries
+- Login / password server login (naïve)
+- Scoreboard
+- Word check in various dictionaries (dict.org)
+- Word popularity check (on google)
+
+How to run :
+- Execute ./compile -server
+- Run ./server.out
+- Connect using telnet on port 15555 (default)
+
+See README.TXT for more details in french language.
 
 
+![screenshot](screens/1.png)
 
+![screenshot](screens/2.png)
 
-OLD .TXT CONTENTS BELOW : (still valid, but in french)
-
- ==================================
-|         MINI PROJET LWT          | 
-|          SERVEUR PENDU           |
- ==================================
-
-Réalisé par Julien ELBAZ
-Programmation Fonctionnelle Avancée
-2009/2010 Université Paris Diderot
-
-===================================
-
-INSTALLATION :
-
-Le dossier contient un script
-d'installation nommé compile.sh.
-
-Le projet est composé d'une grosse
-partie serveur (server.out) ainsi
-que d'un client émulant telnet.
-
-L'utilisation du client est à des
-fins de tests.
-
-Les mots de passe, scores et 
-identifiants sont stockés dans le 
-fichier id.txt.
-
-Pour informations complémentaires 
-voir le rapport pdf ou le sujet.
-
+![screenshot](screens/3.png)
