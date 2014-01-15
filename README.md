@@ -1,7 +1,7 @@
 HANGMAN GAME
 =============
 
-This hangman game is an university project written in OCaml using the Light Weight Thread library.
+This hangman game is an university project (2009/2010) written in OCaml using the Light Weight Thread library.
 
 Features :
 - Hangman game with 6 tries
