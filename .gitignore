@@ -1,0 +1,6 @@
+
+*.odt#
+_build/
+*.out
+*.cmi
+*.cmo

@@ -1,0 +1,5 @@
+#! /bin/sh
+
+curl -A "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.1) Gecko/20061204 Firefox/2.0.0.1" -s "http://www.google.fr/search?q=$1" | grep -o -e 'Environ .* résultats' | perl -pe 's/Environ //' | perl -pe 's/résultats//' | perl -pe 's/&#160;//g'
+
+
