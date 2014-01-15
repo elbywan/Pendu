@@ -1,3 +1,10 @@
+#HANGMAN GAME
+
+
+
+
+OLD .TXT CONTENTS BELOW : (still valid, but in french)
+
  ==================================
 |         MINI PROJET LWT          | 
 |          SERVEUR PENDU           |
